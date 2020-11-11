@@ -21,13 +21,13 @@
             <JFXButton
                     fx:id="newButton"
                     contentDisplay="GRAPHIC_ONLY"
-                    styleClass="main-button"
+                    styleClass="run-button"
             >
                 <graphic>
                     <FontAwesomeIconView
                             glyphName="PLUS"
                             size="24"
-                            styleClass="main-icon"
+                            styleClass="run-icon"
                     />
                 </graphic>
             </JFXButton>

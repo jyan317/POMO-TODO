@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e3b82fc-6a9a-4678-9429-55483e2ccc01" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="8e3b82fc-6a9a-4678-9429-55483e2ccc01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/POMO-TODO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/POMO-TODO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fxml/AddButton.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/AddButton.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ConsoleToDoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/run/ConsoleToDoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/AddButtonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddButtonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/AddTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddTaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/DeleteTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DeleteTaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/EditTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EditTaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/ListViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ListViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/PriorityViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/PriorityViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/TodobarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TodobarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/ToolbarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ToolbarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/factory/TagFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/TagFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/model/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/model/exceptions/InvalidProgressException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/exceptions/InvalidProgressException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/model/exceptions/NegativeInputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/exceptions/NegativeInputException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/parsers/TaskParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parsers/TaskParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/persistence/Jsonifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persistence/Jsonifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/AddButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/AddButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/AddTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/AddTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/EditTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/EditTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/EditTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/run/EditTaskDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/ListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/PomoTodoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/run/PomoTodoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/PriorityView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/PriorityView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/Todobar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Todobar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/Toolbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Toolbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utility/JsonFileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/JsonFileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utility/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/factory/TestTagFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/factory/TestTagFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/model/TestProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/TestProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/model/TestProjectIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/TestProjectIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/model/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/TestTask.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,77 +60,6 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ui/View.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/utility/JsonFileIO.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/utility/Logger.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ConsoleToDoApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-558">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/factory/TestTagFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-224" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/model/TestProject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8864" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/model/TestProjectIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3089">
-              <caret line="639" column="48" lean-forward="true" selection-start-line="639" selection-start-column="48" selection-end-line="639" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/model/TestTask.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkstyle.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2669" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PomoTODO_Phase4_Starter.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -100,45 +68,62 @@
     <option name="width" value="1440" />
     <option name="height" value="805" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="POMO-TODO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POMO-TODO" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1k8PFJ08bZL86xUQGBGMg2sLEWd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
   </component>
+  <component name="RunManager">
+    <configuration name="PomoTodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="run.PomoTodoApp" />
+      <module name="POMO-TODO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PomoTodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="run.PomoTodoApp" />
+      <module name="POMO-TODO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PomoTodoApp" />
+        <item itemvalue="Application.PomoTodoApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8e3b82fc-6a9a-4678-9429-55483e2ccc01" name="Default Changelist" comment="" />
@@ -149,231 +134,70 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/controller/AddButtonController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/AddTaskController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/DeleteTaskController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/EditTaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2009" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/ListViewController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/PriorityViewController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/TodobarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2144" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/ToolbarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1034">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/factory/TagFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/model/exceptions/InvalidProgressException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/model/exceptions/NegativeInputException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/model/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/model/Todo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/model/Task.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/parsers/TaskParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/persistence/Jsonifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/AddButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/AddTask.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/EditTask.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/EditTaskDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/ListView.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/PomoTodoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/PriorityView.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/Todobar.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/Toolbar.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ui/View.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/utility/JsonFileIO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/utility/Logger.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ConsoleToDoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/factory/TestTagFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/model/TestProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/model/TestProjectIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3089">
-          <caret line="639" column="48" lean-forward="true" selection-start-line="639" selection-start-column="48" selection-end-line="639" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/model/TestTask.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkstyle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2669" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PomoTODO_Phase4_Starter.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="208" y="23" width="1024" height="800" key="#Project_Structure" timestamp="1605080606450">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="208" y="23" width="1024" height="800" key="#Project_Structure/0.23.1440.800@0.23.1440.800" timestamp="1605080606450" />
+    <state x="208" y="23" key="#Project_Structure/0.23.1440.803@0.23.1440.803" timestamp="1605080284365" />
+    <state x="184" y="85" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605082806939">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="184" y="85" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.800@0.23.1440.800" timestamp="1605082806939" />
+    <state x="457" y="232" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605082666479">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="457" y="232" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.800@0.23.1440.800" timestamp="1605082666479" />
+    <state x="536" y="353" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605082577070">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="536" y="353" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.800@0.23.1440.800" timestamp="1605082577070" />
+    <state x="536" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.803@0.23.1440.803" timestamp="1605080707108" />
+    <state x="505" y="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605082592379">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="505" y="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.800@0.23.1440.800" timestamp="1605082592379" />
+    <state x="506" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1605082535806">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="506" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.800@0.23.1440.800" timestamp="1605082535806" />
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1605083380177">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1440.803@0.23.1440.803" timestamp="1605083380177" />
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1605083415288">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1605083415288" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1605083415287">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1605083415287" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1605083415287">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1605083415287" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1605083415287">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1605083415287" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1605083103463">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.800@0.23.1440.800" timestamp="1605082791182" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1605083103463" />
+    <state x="443" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605079862798">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="443" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.803@0.23.1440.803" timestamp="1605079862798" />
+    <state x="427" y="178" width="586" height="490" key="find.popup" timestamp="1605079472735">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="427" y="178" width="586" height="490" key="find.popup/0.23.1440.800@0.23.1440.800" timestamp="1605079472735" />
+    <state x="385" y="147" width="670" height="679" key="search.everywhere.popup" timestamp="1605079959185">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup/0.23.1440.800@0.23.1440.800" timestamp="1605079487914" />
+    <state x="385" y="147" width="670" height="679" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1605079959185" />
   </component>
 </project>
