@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3b82fc-6a9a-4678-9429-55483e2ccc01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/POMO-TODO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/POMO-TODO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/AddButton.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/AddButton.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ConsoleToDoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/run/ConsoleToDoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/AddButtonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddButtonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/AddTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddTaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/DeleteTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DeleteTaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/EditTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EditTaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/ListViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ListViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/PriorityViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/PriorityViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/TodobarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TodobarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/ToolbarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ToolbarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/factory/TagFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/TagFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/exceptions/InvalidProgressException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/exceptions/InvalidProgressException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/exceptions/NegativeInputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/exceptions/NegativeInputException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/parsers/TaskParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parsers/TaskParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/persistence/Jsonifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persistence/Jsonifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/AddButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/AddButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/AddTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/AddTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/EditTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/EditTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/EditTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/run/EditTaskDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/ListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/PomoTodoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/run/PomoTodoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/PriorityView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/PriorityView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/Todobar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Todobar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/Toolbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Toolbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utility/JsonFileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/JsonFileIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utility/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/factory/TestTagFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/factory/TestTagFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/model/TestProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/TestProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/model/TestProjectIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/TestProjectIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/model/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/TestTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +45,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -132,7 +100,48 @@
       <option name="presentableId" value="Default" />
       <updated>1595821603382</updated>
     </task>
+    <task id="LOCAL-00001" summary="update project structure and dependencies">
+      <created>1605083531135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605083531135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update project structure and dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project structure and dependencies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="23" width="1024" height="800" key="#Project_Structure" timestamp="1605080606450">
@@ -161,31 +170,35 @@
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="506" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.800@0.23.1440.800" timestamp="1605082535806" />
-    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1605083380177">
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1605083530738">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1440.803@0.23.1440.803" timestamp="1605083380177" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1605083415288">
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1440.803@0.23.1440.803" timestamp="1605083530738" />
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1605083736705">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1605083415288" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1605083415287">
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1605083736705" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1605083736704">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1605083415287" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1605083415287">
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1605083736704" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1605083736703">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1605083415287" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1605083415287">
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1605083736703" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1605083736705">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1605083415287" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1605083736705" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1605083103463">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="208" y="23" key="SettingsEditor/0.23.1440.800@0.23.1440.800" timestamp="1605082791182" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1605083103463" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1605083543654">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1605083543654" />
     <state x="443" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605079862798">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
