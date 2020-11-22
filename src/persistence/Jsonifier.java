@@ -27,16 +27,8 @@ public class Jsonifier {
     // EFFECTS: returns JSON representation of priority
     public static JSONObject priorityToJson(Priority priority) {
         JSONObject priorityJson = new JSONObject();
-        if (priority.isImportant()) {
-            priorityJson.put("important", true);
-        } else {
-            priorityJson.put("important", false);
-        }
-        if (priority.isUrgent()) {
-            priorityJson.put("urgent", true);
-        } else {
-            priorityJson.put("urgent", false);
-        }
+        priorityJson.put("important", priority.isImportant());
+        priorityJson.put("urgent", priority.isUrgent());
         return priorityJson;
     }
 
@@ -100,7 +92,6 @@ public class Jsonifier {
     // EFFECTS: returns JSON array representing list of tasks
     public static JSONArray taskListToJson(List<Task> tasks) {
         JSONArray taskListJson = new JSONArray();
-        taskListJson = new JSONArray();
         for (Task t : tasks) {
             taskListJson.put(taskToJson(t));
         }
