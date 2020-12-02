@@ -14,26 +14,26 @@
          xmlns:fx="http://javafx.com/fxml"
          alignment="center"
          fx:id="root"
-         stylesheets="/css/jfoenix-fonts.css, /css/jfoenix-design.css, /css/jfoenix-main.css" >
+         stylesheets="/css/jfoenix-fonts.css, /css/jfoenix-design.css, /css/jfoenix-main.css">
 
-<BorderPane>
-    <!-- Header -->
-    <top>
-        <VBox fx:id="toolBar"></VBox>
-    </top>
+    <BorderPane>
+        <!-- Header -->
+        <top>
+            <VBox fx:id="toolBar"></VBox>
+        </top>
 
-    <!-- Content Area -->
-    <center>
-        <VBox fx:id="tasks"></VBox>
-    </center>
+        <!-- Content Area -->
+        <center>
+            <VBox fx:id="tasks"></VBox>
+        </center>
 
-    <!-- Bottom Area -->
-    <bottom>
-        <AddButton />
-    </bottom>
+        <!-- Bottom Area -->
+        <bottom>
+            <AddButton/>
+        </bottom>
 
-    <padding>
-        <Insets bottom="20.0" left="0" right="0" top="0" />
-    </padding>
-</BorderPane>
+        <padding>
+            <Insets bottom="20.0" left="0" right="0" top="0"/>
+        </padding>
+    </BorderPane>
 </fx:root>

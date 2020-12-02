@@ -23,7 +23,7 @@
 <fx:root type="javafx.scene.layout.StackPane"
          xmlns:fx="http://javafx.com/fxml"
          fx:controller="controller.AddTaskController"
-         stylesheets="/css/jfoenix-fonts.css, /css/jfoenix-design.css, /css/jfoenix-main.css, /css/jfoenix-components.css" >
+         stylesheets="/css/jfoenix-fonts.css, /css/jfoenix-design.css, /css/jfoenix-main.css, /css/jfoenix-components.css">
 
     <!-- Header -->
     <BorderPane>
@@ -39,11 +39,11 @@
         <center>
 
             <VBox alignment="CENTER" spacing="25.0" BorderPane.alignment="CENTER">
-                <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Description" />
+                <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Description"/>
 
                 <JFXTextArea fx:id="description" style="-fx-background-color: #ffffff;" wrapText="true">
                     <font>
-                        <Font size="14.0" />
+                        <Font size="14.0"/>
                     </font>
                 </JFXTextArea>
 
@@ -68,7 +68,6 @@
             </VBox>
         </bottom>
     </BorderPane>
-
 
 
 </fx:root>

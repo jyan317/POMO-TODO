@@ -12,10 +12,10 @@
          stylesheets="/css/jfoenix-components.css">
 
     <JFXNodesList
-        fx:id="nodesList"
-        rotate="180.0"
-        spacing="15"
-        StackPane.alignment="CENTER"
+            fx:id="nodesList"
+            rotate="180.0"
+            spacing="15"
+            StackPane.alignment="CENTER"
     >
         <children>
             <JFXButton

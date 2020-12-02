@@ -16,7 +16,7 @@ public class Tag {
     // MODIFIES: this
     // EFFECTS: creates a Tag with the given name
     //    throws EmptyStringException if name is null or empty
-    public Tag(String name) {
+    public Tag(String name) throws EmptyStringException {
         if (name == null || name.length() == 0) {
             throw new EmptyStringException("Cannot construct a tag with no name");
         }
@@ -32,7 +32,10 @@ public class Tag {
     // MODIFIES: this
     // EFFECTS: adds task to the collection of tasks in this tag if it is not already exist
     //  throws NullArgumentException if task is null
-    public void addTask(Task task) {
+    public void addTask(Task task) throws NullArgumentException {
+        if (task == null) {
+            throw new NullArgumentException("task must be non-null");
+        }
         if (!containsTask(task)) {
             tasks.add(task);
             task.addTag(this);
@@ -42,7 +45,10 @@ public class Tag {
     // MODIFIES: this
     // EFFECTS: removes task from the collection of tasks in this tag
     //  throws NullArgumentException if task is null
-    public void removeTask(Task task) {
+    public void removeTask(Task task) throws NullArgumentException {
+        if (task == null) {
+            throw new NullArgumentException("task must ne non-null");
+        }
         if (containsTask(task)) {
             tasks.remove(task);
             task.removeTag(this);
@@ -52,7 +58,7 @@ public class Tag {
     // EFFECTS: returns true if this tag is assigned to the given task
     //     returns false otherwise
     //  throws NullArgumentException if task is null
-    public boolean containsTask(Task task) {
+    public boolean containsTask(Task task) throws NullArgumentException {
         if (task == null) {
             throw new NullArgumentException("Invalid argument: task cannot be null");
         }
@@ -76,9 +82,10 @@ public class Tag {
         if (this == o) {
             return true;
         }
-        if (!(o instanceof Tag)) {
+        if (o == null || getClass() != o.getClass()) {
             return false;
         }
+
         Tag tag = (Tag) o;
         return Objects.equals(name, tag.name);
     }

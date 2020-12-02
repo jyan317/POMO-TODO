@@ -41,24 +41,24 @@
         <center>
             <VBox alignment="CENTER" spacing="25.0" BorderPane.alignment="CENTER">
                 <children>
-                    <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Description" />
+                    <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Description"/>
                     <JFXTextField fx:id="description" style="-fx-background-color: #ffffff;">
                     </JFXTextField>
-                    <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Due Date and Time" />
+                    <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Due Date and Time"/>
                     <JFXDatePicker fx:id="datePicker"
                                    styleClass="custom-color-picker"></JFXDatePicker>
                     <JFXTimePicker fx:id="timePicker"
                                    styleClass="custom-color-picker"></JFXTimePicker>
-                    <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Properties" />
+                    <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Properties"/>
                     <JFXCheckBox fx:id="isImportantBox" styleClass="custom-jfx-check-box-all-colored" text="Important">
                     </JFXCheckBox>
                     <JFXCheckBox fx:id="isUrgentBox" styleClass="custom-jfx-check-box-all-colored" text="Urgent">
                     </JFXCheckBox>
-                    <JFXComboBox fx:id="statusComboBox" promptText="Staut" />
-                    <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Tags" />
+                    <JFXComboBox fx:id="statusComboBox" promptText="Staut"/>
+                    <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Tags"/>
                     <JFXChipView fx:id="tags" style="-fx-background-color: #ffffff;">
                         <padding>
-                            <Insets bottom="10.0" left="10.0" right="10.0" />
+                            <Insets bottom="10.0" left="10.0" right="10.0"/>
                         </padding>
                     </JFXChipView>
                 </children>
