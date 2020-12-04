@@ -19,11 +19,7 @@ public class DeleteTaskController {
     public void deleteTask() {
         Logger.log("DeleteTaskController", "Delete new Task with description " + description.getText());
         try {
-            for (Task t : PomoTodoApp.getTasks()) {
-                if (t.getDescription().equals(description.getText())) {
-                    PomoTodoApp.getTasks().remove(t);
-                }
-            }
+            PomoTodoApp.getTasks().removeIf(t -> t.getDescription().equals(description.getText()));
         } catch (RuntimeException e) {
             Logger.log("DeleteTaskController", "Failed to find task from description " + description.getText());
         } finally {

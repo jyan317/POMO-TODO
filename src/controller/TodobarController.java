@@ -27,8 +27,8 @@ import java.util.ResourceBundle;
 public class TodobarController implements Initializable {
     private static final String todoOptionsPopUpFXML = "resources/fxml/TodoOptionsPopUp.fxml";
     private static final String todoActionsPopUpFXML = "resources/fxml/TodoActionsPopUp.fxml";
-    private File todoOptionsPopUpFxmlFile = new File(todoOptionsPopUpFXML);
-    private File todoActionsPopUpFxmlFile = new File(todoActionsPopUpFXML);
+    private final File todoOptionsPopUpFxmlFile = new File(todoOptionsPopUpFXML);
+    private final File todoActionsPopUpFxmlFile = new File(todoActionsPopUpFXML);
 
 
     @FXML
@@ -196,7 +196,3 @@ public class TodobarController implements Initializable {
         }
     }
 }
-
-
-
-

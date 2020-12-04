@@ -10,8 +10,8 @@ import java.util.Set;
 
 // Represents a tag having a name
 public class Tag {
-    private String name;
-    private Set<Task> tasks;
+    private final String name;
+    private final Set<Task> tasks;
 
     // MODIFIES: this
     // EFFECTS: creates a Tag with the given name

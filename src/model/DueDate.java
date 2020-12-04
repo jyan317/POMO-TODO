@@ -12,7 +12,7 @@ import static java.util.Calendar.*;
 // Represents the due date of a Task
 public class DueDate {
 
-    private Calendar calInstance;
+    private final Calendar calInstance;
 
     // MODIFIES: this
     // EFFECTS: creates a DueDate with deadline at end of day today (i.e., today at 11:59 PM)

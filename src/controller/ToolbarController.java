@@ -28,8 +28,8 @@ import static run.PomoTodoApp.setScene;
 public class ToolbarController implements Initializable {
     private static final String toolbarPopUpFXML = "resources/fxml/ToolbarPopUp.fxml";
     private static final String viewOptionsPopUpFXML = "resources/fxml/ViewOptionsPopUp.fxml";
-    private File toolbarPopUpFxmlFile = new File(toolbarPopUpFXML);
-    private File viewOptionsPopUpFxmlFile = new File(viewOptionsPopUpFXML);
+    private final File toolbarPopUpFxmlFile = new File(toolbarPopUpFXML);
+    private final File viewOptionsPopUpFxmlFile = new File(viewOptionsPopUpFXML);
 
     @FXML
     private JFXHamburger viewOptionsPopUpBurger;

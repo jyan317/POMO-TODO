@@ -143,10 +143,10 @@ public class TagParser extends Parser {
     // MODIFIES: this
     // EFFECTS: extracts priority from inputList
     private void setImportantUrgentFromTags() {
-        for (int i = 0; i < inputList.size(); i++) {
-            if (inputList.get(i).equalsIgnoreCase("important")) {
+        for (String s : inputList) {
+            if (s.equalsIgnoreCase("important")) {
                 important = true;
-            } else if (inputList.get(i).equalsIgnoreCase("urgent")) {
+            } else if (s.equalsIgnoreCase("urgent")) {
                 urgent = true;
             }
         }
@@ -247,14 +247,19 @@ public class TagParser extends Parser {
         }
         if (containsStatus(workingStatusList)) {
             extractStatus();
-            if (taskStatus.equals("done")) {
-                task.setStatus(Status.DONE);
-            } else if (taskStatus.equals("up next")) {
-                task.setStatus(Status.UP_NEXT);
-            } else if (taskStatus.equals("in progress")) {
-                task.setStatus(Status.IN_PROGRESS);
-            } else {
-                task.setStatus(Status.TODO);
+            switch (taskStatus) {
+                case "done":
+                    task.setStatus(Status.DONE);
+                    break;
+                case "up next":
+                    task.setStatus(Status.UP_NEXT);
+                    break;
+                case "in progress":
+                    task.setStatus(Status.IN_PROGRESS);
+                    break;
+                default:
+                    task.setStatus(Status.TODO);
+                    break;
             }
         }
     }
@@ -290,51 +295,48 @@ public class TagParser extends Parser {
     // MODIFIES: this
     // EFFECTS: removes all instances of taskStatus' value in inputList
     private void removeDuplicateStatus() {
-        if (taskStatus.equals("to do")) {
-            for (int i = 0; i < inputList.size(); i++) {
-                if (inputList.get(i).equalsIgnoreCase("to do")) {
-                    inputList.remove(inputList.get(i));
-                    i--;
+        switch (taskStatus) {
+            case "to do":
+                for (int i = 0; i < inputList.size(); i++) {
+                    if (inputList.get(i).equalsIgnoreCase("to do")) {
+                        inputList.remove(inputList.get(i));
+                        i--;
+                    }
                 }
-            }
-        } else if (taskStatus.equals("up next")) {
-            for (int i = 0; i < inputList.size(); i++) {
-                if (inputList.get(i).equalsIgnoreCase("up next")) {
-                    inputList.remove(inputList.get(i));
-                    i--;
+                break;
+            case "up next":
+                for (int i = 0; i < inputList.size(); i++) {
+                    if (inputList.get(i).equalsIgnoreCase("up next")) {
+                        inputList.remove(inputList.get(i));
+                        i--;
+                    }
                 }
-            }
-        } else {
-            removeDuplicateStatusPart2();
+                break;
+            case "in progress":
+                for (int i = 0; i < inputList.size(); i++) {
+                    if (inputList.get(i).equalsIgnoreCase("in progress")) {
+                        inputList.remove(inputList.get(i));
+                        i--;
+                    }
+                }
+                break;
+            default:
+                for (int i = 0; i < inputList.size(); i++) {
+                    if (inputList.get(i).equalsIgnoreCase("done")) {
+                        inputList.remove(inputList.get(i));
+                        i--;
+                    }
+                }
+                break;
         }
     }
 
-
-    // MODIFIES: this
-    // EFFECTS: removes all instances of taskStatus' value if "in progress" or "done" in inputList
-    private void removeDuplicateStatusPart2() {
-        if (taskStatus.equals("in progress")) {
-            for (int i = 0; i < inputList.size(); i++) {
-                if (inputList.get(i).equalsIgnoreCase("in progress")) {
-                    inputList.remove(inputList.get(i));
-                    i--;
-                }
-            }
-        } else {
-            for (int i = 0; i < inputList.size(); i++) {
-                if (inputList.get(i).equalsIgnoreCase("done")) {
-                    inputList.remove(inputList.get(i));
-                    i--;
-                }
-            }
-        }
-    }
 
     // MODIFIES: this
     // EFFECTS: updates task tags if any, otherwise doesn't change
     private void setTags() {
         removeDuplicateTags();
-        removeEmtpyTags();
+        removeEmptyTags();
         for (String tag : inputList) {
             task.addTag(tag);
         }
@@ -360,8 +362,8 @@ public class TagParser extends Parser {
     }
 
     // MODIFIES: this
-    // EFFECTS: removes emtpy tags from inputList
-    private void removeEmtpyTags() {
+    // EFFECTS: removes empty tags from inputList
+    private void removeEmptyTags() {
         for (int i = 0; i < inputList.size(); i++) {
             if (inputList.get(i).isEmpty()) {
                 inputList.remove(inputList.get(i));

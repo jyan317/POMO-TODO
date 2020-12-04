@@ -15,7 +15,7 @@ import java.util.*;
 public class Task extends Todo {
     public static final DueDate NO_DUE_DATE = null;
 
-    private Set<Tag> tags;
+    private final Set<Tag> tags;
     private DueDate dueDate;
     private Status status;
 
@@ -157,13 +157,13 @@ public class Task extends Todo {
     // The order of printed tags do not matter.
     @Override
     public String toString() {
-        StringBuffer output = new StringBuffer();
+        StringBuilder output = new StringBuilder();
         output.append("\n{");
-        output.append("\n\tDescription: " + getDescription());
-        output.append("\n\tDue date: " + (getDueDate() == null ? "" : getDueDate()));
-        output.append("\n\tStatus: " + getStatus());
-        output.append("\n\tPriority: " + getPriority().toString());
-        output.append("\n\tTags: " + tagsToString(new ArrayList<Tag>(getTags())));
+        output.append("\n\tDescription: ").append(getDescription());
+        output.append("\n\tDue date: ").append(getDueDate() == null ? "" : getDueDate());
+        output.append("\n\tStatus: ").append(getStatus());
+        output.append("\n\tPriority: ").append(getPriority().toString());
+        output.append("\n\tTags: ").append(tagsToString(new ArrayList<Tag>(getTags())));
         output.append("\n}");
         return output.toString();
     }
@@ -201,9 +201,9 @@ public class Task extends Todo {
     // EFFECTS: returns a string containing a comma-separated list of tags,
     //     where each tag is preceded by label "Tags: "
     private String tagsToString(List<Tag> tags) {
-        StringBuffer output = new StringBuffer();
+        StringBuilder output = new StringBuilder();
         for (int i = 0; i < tags.size() - 1; i++) {
-            output.append(tags.get(i) + ", ");
+            output.append(tags.get(i)).append(", ");
         }
         if (tags.size() > 0) {
             output.append(tags.get(tags.size() - 1));
@@ -223,7 +223,6 @@ public class Task extends Todo {
         }
         Task task = (Task) o;
         return Objects.equals(description, task.description)
-                // && Objects.equals(tags, task.tags)
                 && Objects.equals(dueDate, task.dueDate)
                 && Objects.equals(priority, task.priority)
                 && status == task.status;
@@ -231,7 +230,6 @@ public class Task extends Todo {
 
     @Override
     public int hashCode() {
-        // return Objects.hash(description, tags, dueDate, priority, status);
         return Objects.hash(description, dueDate, priority, status);
     }
 }

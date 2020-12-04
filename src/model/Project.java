@@ -7,8 +7,8 @@ import java.util.*;
 // Represents a Project, a collection of zero or more Tasks
 // Class Invariant: no duplicated task; order of tasks is preserved
 public class Project extends Todo implements Iterable<Todo> {
-    private String description;
-    private List<Todo> tasks;
+    private final String description;
+    private final List<Todo> tasks;
 
     // MODIFIES: this
     // EFFECTS: constructs a project with the given description
@@ -63,8 +63,7 @@ public class Project extends Todo implements Iterable<Todo> {
         if (numTodo == 0) {
             return 0;
         } else {
-            int avgCompletion = sumProgress / numTodo;
-            return avgCompletion;
+            return sumProgress / numTodo;
         }
     }
 

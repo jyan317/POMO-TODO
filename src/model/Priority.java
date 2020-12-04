@@ -19,16 +19,8 @@ public class Priority {
     // EFFECTS: constructs a Priority according to the value of "quadrant"
     //     the parameter "quadrant" refers to the quadrants of the Eisenhower Matrix
     public Priority(int quadrant) {
-        if (quadrant == 1 || quadrant == 2) {
-            important = true;
-        } else {
-            important = false;
-        }
-        if (quadrant == 1 || quadrant == 3) {
-            urgent = true;
-        } else {
-            urgent = false;
-        }
+        important = quadrant == 1 || quadrant == 2;
+        urgent = quadrant == 1 || quadrant == 3;
     }
 
     // EFFECTS: returns the importance of Priority

@@ -8,7 +8,7 @@ import java.util.List;
 
 public class TagFactory {
 
-    private static List<Tag> tags = new ArrayList<>();
+    private static final List<Tag> tags = new ArrayList<>();
 
     public static void printTagInfo(Tag tag) {
         System.out.println("Tasks that are tagged with " + tag.getName() + " are:");

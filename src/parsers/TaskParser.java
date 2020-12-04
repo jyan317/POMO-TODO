@@ -1,7 +1,7 @@
 package parsers;
 
-import model.Task;
 import model.DueDate;
+import model.Task;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -13,10 +13,6 @@ import java.util.List;
 
 // Represents Task parser
 public class TaskParser {
-
-    private ArrayList<Task> outputList;
-    private JSONArray fullArray;
-
     // MODIFIES: this
     // EFFECTS: iterates over every JSONObject in the JSONArray represented by the input
     // string and parses it as a task; each parsed task is added to the list of tasks.
@@ -24,9 +20,9 @@ public class TaskParser {
     // list of tasks.
     // Note: input is a string representation of a JSONArray
     public List<Task> parse(String input) {
-        fullArray = new JSONArray(input);
+        JSONArray fullArray = new JSONArray(input);
 
-        outputList = new ArrayList<>();
+        ArrayList<Task> outputList = new ArrayList<>();
         for (int i = 0; i < fullArray.length(); i++) {
             try {
                 JSONObject thisTaskObj = (JSONObject) fullArray.get(i);
@@ -53,8 +49,7 @@ public class TaskParser {
         String priority = getPriorityList(priorityObj);
         String status = getStatus(statusStr);
 
-        String output = desc + "##" + tags + priority + status;
-        return output;
+        return (desc + "##" + tags + priority + status);
     }
 
     // EFFECTS: returns tag section of parsing String
@@ -70,8 +65,8 @@ public class TaskParser {
 
     // EFFECTS: returns priority section of parsing String
     private String getPriorityList(JSONObject priority) {
-        Boolean important = priority.getBoolean("important");
-        Boolean urgent = priority.getBoolean("urgent");
+        boolean important = priority.getBoolean("important");
+        boolean urgent = priority.getBoolean("urgent");
         String priorityList = ";";
         if (important) {
             priorityList = priorityList + "important;";
@@ -85,14 +80,19 @@ public class TaskParser {
     // EFFECTS: returns status section of parsing String
     private String getStatus(String status) {
         String statusString;
-        if (status.equals("DONE")) {
-            statusString = "done;";
-        } else if (status.equals("IN_PROGRESS")) {
-            statusString = "in progress;";
-        } else if (status.equals("UP_NEXT")) {
-            statusString = "up next;";
-        } else {
-            statusString = ";";
+        switch (status) {
+            case "DONE":
+                statusString = "done;";
+                break;
+            case "IN_PROGRESS":
+                statusString = "in progress;";
+                break;
+            case "UP_NEXT":
+                statusString = "up next;";
+                break;
+            default:
+                statusString = ";";
+                break;
         }
         return statusString;
     }
@@ -102,54 +102,65 @@ public class TaskParser {
     private DueDate dateToDueDate(JSONObject json) throws JSONException {
         if (json.has("due-date")) {
             if (json.isNull("due-date")) {
-                DueDate nullDueDate = null;
-                return nullDueDate;
+                return null;
             } else {
-                JSONObject date = json.getJSONObject("due-date");
-                return dateToDueDatePart2(date);
+                return dateToDueDateNotNull(json.getJSONObject("due-date"));
             }
         } else {
             throw new JSONException("could not find due-date");
         }
     }
 
-    // EFFECTS: if all date fields are integers, calls helper to construct due date
+    // EFFECTS: if all date fields are integers, constructs due date
     //   throws JSONException if any date fields are of incorrect type
-    private DueDate dateToDueDatePart2(JSONObject date) throws JSONException {
+    private DueDate dateToDueDateNotNull(JSONObject date) throws JSONException {
         Object yearObj = date.get("year");
         Object monthObj = date.get("month");
         Object dayObj = date.get("day");
         Object hourObj = date.get("hour");
         Object minObj = date.get("minute");
 
-        if (yearObj instanceof Integer && monthObj instanceof Integer && dayObj instanceof Integer
-                && hourObj instanceof Integer && minObj instanceof Integer) {
+        if (checkParams(yearObj, monthObj, dayObj, hourObj, minObj)) {
             int year = (int) yearObj;
             int month = (int) monthObj;
             int day = (int) dayObj;
             int hour = (int) hourObj;
             int min = (int) minObj;
 
-            return dateToDueDatePart3(year, month, day, hour, min);
+            Calendar workingCal = Calendar.getInstance();
+            workingCal.set(Calendar.YEAR, year);
+            workingCal.set(Calendar.MONTH, month);
+            workingCal.set(Calendar.DATE, day);
+            workingCal.set(Calendar.HOUR_OF_DAY, hour);
+            workingCal.set(Calendar.MINUTE, min);
+
+            DueDate output = new DueDate();
+            Date workingDate = workingCal.getTime();
+            output.setDueDate(workingDate);
+
+            return output;
         } else {
             throw new JSONException("incorrect date field type(s)");
         }
+
     }
 
-    // EFFECTS: returns DueDate represented by original JSON Object
-    private DueDate dateToDueDatePart3(int year, int month, int day, int hour, int min) {
-        Calendar workingCal = Calendar.getInstance();
-
-        workingCal.set(Calendar.YEAR, year);
-        workingCal.set(Calendar.MONTH, month);
-        workingCal.set(Calendar.DATE, day);
-        workingCal.set(Calendar.HOUR_OF_DAY, hour);
-        workingCal.set(Calendar.MINUTE, min);
-
-        DueDate output = new DueDate();
-        Date workingDate = workingCal.getTime();
-        output.setDueDate(workingDate);
-
-        return output;
+    private boolean checkParams(Object year, Object month, Object day, Object hour, Object min) throws JSONException {
+        if (!(year instanceof Integer)) {
+            throw new JSONException("year must be an integer");
+        }
+        if (!(month instanceof Integer)) {
+            throw new JSONException("month must be an integer");
+        }
+        if (!(day instanceof Integer)) {
+            throw new JSONException("day must be an integer");
+        }
+        if (!(hour instanceof Integer)) {
+            throw new JSONException("hour must be an integer");
+        }
+        if (!(min instanceof Integer)) {
+            throw new JSONException("min must be an integer");
+        }
+        return true;
     }
 }

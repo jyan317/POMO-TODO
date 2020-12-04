@@ -10,7 +10,7 @@ import java.util.List;
 // Controller class for ListView UI
 public class PriorityViewController extends ViewController {
 
-    private Project project = new Project("project");
+    private final Project project = new Project("project");
 
 
     // EFFECTS: adds Todobar UI to PriorityView UI for each task

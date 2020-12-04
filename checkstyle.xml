@@ -210,11 +210,6 @@
         <module name="EmptyCatchBlock">
             <property name="exceptionVariableName" value="expected"/>
         </module>
-        <module name="MethodLength">
-            <property name="tokens" value="METHOD_DEF"/>
-            <property name="max" value="20"/>
-            <property name="countEmpty" value="false"/>
-        </module>
         <module name="IllegalImport">
             <property name="illegalPkgs" value="com.sun"/>
         </module>

@@ -9,7 +9,7 @@ public enum Status {
     IN_PROGRESS("IN PROGRESS"),
     DONE("DONE");
 
-    private String description;
+    private final String description;
 
     // EFFECTS: sets description of Status
     Status(String description) {
